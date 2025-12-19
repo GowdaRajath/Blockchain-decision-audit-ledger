@@ -99,3 +99,101 @@ These metrics are presented through dashboards and visual outputs included in th
 
 A detailed threat model is documented in:
 
+The threat model analyses tampering risks, insider threats, replay attacks, privacy exposure, and system limitations.
+
+The system is designed to provide tamper evidence and audit confidence rather than replace organisational governance.
+
+---
+
+## Research Basis
+
+This project is informed by academic and industry research on:
+- Blockchain-based audit trails
+- Tamper-resistant logging systems
+- Hash-based integrity verification
+- Transparency in regulated environments
+
+Supporting research and design justification can be found in:
+
+---
+
+## Dashboards & Visual Evidence
+
+The following dashboard illustrates how transparency, traceability, and integrity metrics can be visualised for audit oversight and decision governance.
+
+<p align="center">
+  <img src="dashboards/decision-audit-dashboard.png" alt="Decision Audit Dashboard" width="900">
+</p>
+
+This dashboard is based on synthetic data and demonstrates how blockchain-backed audit trails can support measurable trust and accountability.
+
+
+---
+
+## Repository Structure
+blockchain-decision-audit-ledger/
+
+│
+├── README.md
+├── research/
+
+│ ├── reading-list.md
+
+│ └── design-rationale.md
+
+│
+├── docs/
+
+│ ├── threat-model.md
+
+│ └── architecture.md
+
+│
+├── contracts/
+
+│ └── DecisionAuditLedger.sol
+
+│
+├── backend/
+
+│ ├── hashing/
+
+│ ├── services/
+
+│ └── README.md
+
+│
+├── analysis/
+
+│ └── transparency-metrics.md
+
+│
+├── dashboards/
+
+│ ├── decision-audit-dashboard.png
+
+│ └── README.md
+
+│
+└── visuals/
+
+└── architecture.png
+
+
+---
+
+## Data Ethics
+
+All data used in this repository is synthetic and anonymised.  
+No real customer data, employer data, or personally identifiable information is included.
+
+---
+
+## Author
+
+**Rajath Gowda**  
+Data & Insight Analyst  
+Decision Intelligence, Transparency & Trust Systems
+
+
+
